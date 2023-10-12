@@ -1,0 +1,145 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: url(https://marketplace.canva.com/EAFrWiFpof4/1/0/1600w/canva-orange-spooky-halloween-desktop-wallpaper-2VpU8y-CW7I.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+header{
+    margin-top:50px;
+    margin-bottom:50px;
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.684);
+    color:rgb(255, 255, 255);
+    min-width:100%;
+    
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 550px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .container {
+      max-width: 850px;
+    }
+  }
+
+
+.container {
+    width: 100%;
+    margin: 6.125rem auto 0 auto;
+}
+
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom:130px;
+    
+}
+
+
+form {
+    background: rgb(254, 153, 0);
+    color:rgb(255, 255, 255);
+    padding: 2.5rem 0.625rem;
+    border-radius: 1.0rem;
+    margin:40px;
+    display: block;
+    margin-top: 0em;
+    padding: 2.5rem;
+    border:none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 2.375rem;
+    padding: 0.375rem 0.75rem;
+    color: #5d656dfa;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border:none;
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+   
+}
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
+.question{
+    font-weight:bold;
+    font-size:25px;
+    text-align: left;
+    
+   
+   
+}
+div {
+    display: block;
+}
+
+.submit-button{
+    border:none;
+    display:block;
+    width:100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+}
+.submit-button:hover{
+    background-color:rgb(191, 101, 17);
+    transition: 0.2s;
+}
+.input-textarea{
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize:none;
+    border-radius: 8px;
+    border: none;
+   
+}
+

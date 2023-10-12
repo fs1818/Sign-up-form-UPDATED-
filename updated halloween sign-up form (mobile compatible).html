@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Halloween Party sign-up form 2023</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">
+          Halloween Party sign-up form 2023
+        </h1>
+        <p id="description" class="description text-center">
+          Come join us on the 31st October for the most anticipated party of the
+          year!
+        </p>
+      </header>
+      <form id="sign-up-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form-control"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label id="mobile-number-label" for="mobile-number"
+            >Mobile number</label
+          >
+          <input
+            type="tel"
+            name="mobile-number"
+            id="mobile-number"
+            min="0"
+            max="6"
+            class="form-control"
+            placeholder="Enter your mobile number"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <p class="question">How many guests will you be bringing?</p>
+          <label id="guests-label" for="guests">No. of guests</label>
+          <input
+            type="number"
+            name="guests"
+            id="guests"
+            min="0"
+            max="6"
+            class="form-control"
+            placeholder="Enter no. of guests"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <p class="question">What time do you prefer?</p>
+          <select id="dropdown" name="time" class="form-control" required>
+            <option value="">Select preferred time</option>
+            <option value="1">6:00pm-9:00pm</option>
+            <option value="2">8:00pm-11:00pm</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p class="question">
+            What activities would you like to participate in?
+          </p>
+          <label>
+            <input
+              name="activities"
+              value="apple-bobbing"
+              type="checkbox"
+              class="input-checkbox"
+            />Apple-bobbing
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="cookie-decorating"
+              type="checkbox"
+              class="input-checkbox"
+            />Cookie decorating
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="making-pumpkin-soup"
+              type="checkbox"
+              class="input-checkbox"
+            />Making pumpkin soup
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="pumpkin-carving"
+              type="checkbox"
+              class="input-checkbox"
+            />Pumpkin carving
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="irl-murder-mystery"
+              type="checkbox"
+              class="input-checkbox"
+            />IRL Murder Mystery
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="shoot-the-skeleton"
+              type="checkbox"
+              class="input-checkbox"
+            />Shoot the Skeleton
+          </label>
+          <label>
+            <input
+              name="activities"
+              value="movie-trivia"
+              type="checkbox"
+              class="input-checkbox"
+            />Halloween Movie Trivia
+          </label>
+        </div>
+        <div class="form-group">
+          <p class="question">Any comments or suggestions?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <p class="question">How would you like to recieve your ticket?</p>
+          <label>
+            <input
+              name="ticket"
+              value="text/sms"
+              type="radio"
+              class="input-radio"
+              checked
+            />Text/SMS
+          </label>
+          <label>
+            <input
+              name="ticket"
+              value="email"
+              type="radio"
+              class="input-radio"
+            />Email
+          </label>
+        </div>
+        <div class="form-group">
+          <button
+            type="submit"
+            id="submit"
+            class="submit-button"
+            onclick="alert('Thanks! See you at the party!')"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer>
+      <p>
+        fs.events.co.uk<br />
+        All Rights Reserved<br />
+        © 2023 FSevents
+      </p>
+    </footer>
+  </body>
+</html>
